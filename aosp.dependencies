@@ -7,7 +7,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "Hasaber8/proprietary_vendor_motorola-1",
+    "repository":  "TheMuppets/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "lineage-17.1"
   },
