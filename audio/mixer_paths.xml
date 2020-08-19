@@ -309,7 +309,7 @@
     <!-- Volume controls -->
     <ctl name="HPHL Volume" value="9" />
     <ctl name="HPHR Volume" value="9" />
-    <ctl name="EAR PA Gain" value="POS_6_DB" />
+    <ctl name="EAR PA Gain" value="POS_1P5_DB" />
     <ctl name="EAR PA Boost" value="ENABLE" />
 
     <ctl name="RX1 Digital Volume" value="84" />
@@ -1503,10 +1503,6 @@
     </path>
 
     <path name="compress-voip-call speaker">
-        <path name="compress-voip-call" />
-    </path>
-
-    <path name="compress-voip-call speaker">
         <ctl name="TERT_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer INT3_MI2S_TX_Voip" value="1" />
     </path>
@@ -1859,7 +1855,6 @@
     </path>
 
     <path name="handset">
-	<ctl name="RX1 Digital Volume" value="92" />
         <ctl name="INT0_MI2S_RX Channels" value="One" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
         <ctl name="RDAC2 MUX" value="RX1" />
